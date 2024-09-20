@@ -8,15 +8,15 @@ permalink: /about/
 
 <div class="container">
   <div style="width:100%;height:0; padding-top:50%;position:relative;">
-    <img src="../images/menu/photo_talks.jpg" style="width:100%; opacity:0.8; position:absolute; top:0; left:0">
+    <img src="../images/menu/photo_blog.jpg" style="width:100%; opacity:0.8; position:absolute; top:0; left:0">
   </div>  
   <div class="content">
     <h1>Hi, I am Sushant!</h1>
-    <p><span class="cover-desc" style="color:var(--page-desc-color)">Click <a href="../cv.pdf">here</a> to download my CV and check out <a href="./p1_portfolio.md">my portfolio</a> to see my work.</span></p>
+    <p><span class="cover-desc" style="color:var(--page-desc-color)">Click <a href="../cv.pdf">here</a> to download my CV and check out <a href="https://sushant-97.github.io/website_personal/portfolio/">my portfolio</a> to see my work.</span></p>
   </div>
 </div>
 
-<p><span class="page-desc">Click <a href="../cv.pdf">here</a> to download my CV and check out <a href="./p1_portfolio.md">my portfolio</a> to see my work.</span></p>
+<p><span class="page-desc">Click <a href="../cv.pdf">here</a> to download my CV and check out <a href="https://sushant-97.github.io/website_personal/portfolio/">my portfolio</a> to see my work.</span></p>
 
 
 <!----------------------------------------------------------------------------->
@@ -36,14 +36,11 @@ In my free time, I enjoy playing beach volleyball and challenging myself in ML c
 <!----------------------------------------------------------------------------->
 ## About this website
 
-This website hosts [my blog](https://sushant-97.github.io/website_personal/blog/), where I share ML tutorials, competitive ML tricks, and interesting project findings. All opinions published here are my own. The website includes different sections featuring my work:
+This website hosts [my blog](https://sushant-97.github.io/website_personal/blog/), where I share ML concepts and interesting project findings. All opinions published here are my own. The website includes different sections featuring my work:
 
 - &#128193; [my portfolio](https://sushant-97.github.io/website_personal/portfolio/) with ML projects on different topics
-<!-- - &#128483; [my tech talks](https://sushant-97.github.io/website_personal/talks/) with links to presentation slides and talk videos
-- &#128218; [my ML publications](https://sushant-97.github.io/website_personal/papers/) with paper abstracts and full-text PDFs -->
-- &#129351; [my Kaggle solutions](https://sushant-97.github.io/website_personal/kaggle/) with links to code and write-ups
+- &#129351; [my ML Competations solutions](https://sushant-97.github.io/website_personal/kaggle/) with links to code and write-ups
 - &#128421; [my certifications](https://sushant-97.github.io/website_personal/certifications/) with links to certificates and completed courses
-<!-- - &#127891; [my teaching experience](https://sushant-97.github.io/website_personal/teaching/) at the Humboldt University of Berlin -->
 
 If you like my blog, you can buy me a cup of tea to support my work. Thanks!
 <div class="tea">
