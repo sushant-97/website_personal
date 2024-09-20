@@ -7,19 +7,19 @@ image: ../images/menu/photo_portfolio.jpg
 
 <meta charset="UTF-8">
 
-<img src="https://kozodoi.me/images/menu/photo_portfolio.jpg" style="width:0%; height:0%; top:0; bottom:0">
+<img src="https://sushant-97.github.io/website_personal/images/menu/photo_portfolio.jpg" style="width:0%; height:0%; top:0; bottom:0">
 
 <div class="container">
   <div style="width:100%;height:0; padding-top:50%;position:relative;">
-    <img src="../images/menu/photo_portfolio.jpg" style="width:100%; opacity:0.8; position:absolute; top:0; left:0">
+    <img src="https://sushant-97.github.io/website_personal/images/menu/photo_portfolio.jpg" style="width:100%; opacity:0.8; position:absolute; top:0; left:0">
   </div>  
   <div class="content">
     <h1>Portfolio</h1>
-    <p><span class="cover-desc" style="color:var(--page-desc-color)">My public ML portfolio includes projects on different topics, including generative AI, NLP, computer vision, and tabular data. To see more of my work, visit my <a href="https://github.com/kozodoi">GitHub page</a>, download my <a href="https://kozodoi.me/cv.pdf">CV</a> or check out the <a href="https://kozodoi.me/about/">about</a> page.</span></p>
+    <p><span class="cover-desc" style="color:var(--page-desc-color)">My public ML portfolio includes projects on different topics, including generative AI, NLP, computer vision, and tabular data. To see more of my work, visit my <a href="https://github.com/sushant-97">GitHub page</a>, download my <a href="https://sushant-97.github.io/website_personal/cv.pdf">CV</a> or check out the <a href="https://sushant-97.github.io/website_personal/about/">about</a> page.</span></p>
   </div>
 </div>
 
-<p><span class="page-desc">My public ML portfolio includes projects on different topics, including generative AI, NLP, computer vision, and tabular data. To see more of my work, visit my <a href="https://github.com/kozodoi">GitHub page</a>, download my <a href="https://kozodoi.me/cv.pdf">CV</a> or check out the <a href="https://kozodoi.me/about/">about</a> page.</span></p>
+<p><span class="page-desc">My public ML portfolio includes projects on different topics, including Generative AI, NLP, Computer Vision, and Tabular data. To see more of my work, visit my <a href="https://github.com/sushant-97">GitHub page</a>, download my <a href="https://sushant-97.github.io/website_personal/cv.pdf">CV</a> or check out the <a href="https://sushant-97.github.io/website_personal/about/">about</a> page.</span></p>
 
 
 <!----------------------------------------------------------------------------->
@@ -34,10 +34,9 @@ image: ../images/menu/photo_portfolio.jpg
   <p>My portfolio features the following projects:</p>
 
   <ul style="margin-top: -10px;">
-  <li> &#128214; <a href="#PROJECT_1">Text reading complexity prediction with transformers </a></li>
-  <li> &#129516; <a href="#PROJECT_3">Image-to-text translation of chemical structures with deep learning </a></li>
-  <li> &#128200; <a href="#PROJECT_2">Fair machine learning in credit scoring applications </a></li>
-  </ul>
+  <li> &#128214; <a href="#PROJECT_3">Optimized GPT-2 with Reinforcement Learning from Human Feedback </a></li>
+  <li> &#129516; <a href="#PROJECT_1">Accelerating BERT Inference with LoRA and TensorRT for Stack Overflow Question Classification </a></li>
+
 
   <p>Scroll down to see more generative AI and ML projects grouped by application domains. Click "read more" to see project summaries, and follow GitHub links for code and documentation. </p>
 
@@ -50,27 +49,31 @@ image: ../images/menu/photo_portfolio.jpg
 
 <a id="PROJECT_1"></a>
 <div class="card">
-  <h2><b> Text Readability Prediction with Transformers </b></h2>
-  <img src="https://kozodoi.me/images/portfolio/fig_books.jpg" alt="Notebook" style="width:100%">
+  <h2><b> Optimized GPT-2 with Reinforcement Learning from Human Feedback </b></h2>
+  <img src="https://sushant-97.github.io/images/portfolio/fig_books.jpg" alt="Notebook" style="width:100%">
   <h3> Highlights </h3>
   <ul>
-  <li> developed a comprehensive PyTorch / HuggingFace text classification pipeline </li>
-  <li> build multiple transformers including BERT and RoBERTa with custom pooling layers </li>
-  <li> implemented an interactive web app for custom text reading complexity estimation </li>
+  <li> developed a comprehensive PyTorch / HuggingFace text generation pipeline using GPT2
+  <li> Implemented fully functional RLHF training in pytorch on top of GPT2
+  <li> Implemented supervised fine-tuning (SFT) and Proximal Policy Optimization (PPO) with LoRA to align GPT-2 model output with human feedback. </li>
+  <!-- <li> build & finetuned GPT2 model architeture based on Andrej Karpathy's github repo</li> -->
   </ul>
-  <p> <b>Tags:</b> natural language processing, deep learning, web app </p>
+  <p> <b>Tags:</b> nlp, rlhf, ppo, gpt2</p>
   <span id="dots1"><p></p></span>
   <span id="more1">
   <h3> Summary </h3>
-  <p> Estimating text reading complexity is a crucial task for school teachers. Offering students text passages at the right level of challenge is important for facilitating a fast development of reading skills. The existing tools to estimate text complexity rely on weak proxies and heuristics, which results in a suboptimal accuracy. In this project, I use deep learning to predict the readability scores of text passages. </p>
-  <p> My solution implements eight transformer models, including BERT, RoBERTa and others in PyTorch. The models feature a custom regression head that uses a concatenated output of multiple hidden layers. The modeling pipeline includes text augmentations such as sentence order shuffle, backtranslation and injecting target noise. The solution places in the top-9% of the Kaggle competition leaderboard. </p>
-  <p> The project also includes <a href="https://kozodoi-text-readability-prediction-web-app-ddrfmw.streamlit.app">an interactive web app</a> built in Python. The app allows to estimate reading complexity of a custom text using two of the trained transformer models. The code and documentation are available <a href="https://github.com/kozodoi/Text_Readability_Prediction">on GitHub</a>. </p>
-  <img src="https://kozodoi.me/images/portfolio/gif_books.gif" alt="Notebook" style="width:100%">
+  <p> ChatGPT is one the robust chatbot that is avaible in present stage and it is changing our work and lifestyle. Based on which there are many RAG based chatbots developed on top of LLM api. The main challenge in these systems is how can you extract the knowledge present in LLM for your use case. The part of these LLMs perform so well to the human understanding is because of human feedback in finetuing stage called RLHF. RLHF allgins LLM output to be coherent with the user query which makes the model very powerful However, the question we ask here is Can we align smaller models to also behavior reasonably in a dialogue similar with large language model such as GPT-3 175B? </p>
+  
+  <p> We implemented GPT architecture with casual language model training by loosely follow Andrej's implementation of nanoGPT. The initial model weights of GPT2 are loaded from Huggingface. We also added Low-rank Approximation to the linear layers inside the multi-head attention and to the projection layer.</p>
+
+  <p>For SFT, we did autoregressive style pre-training with cross entropy loss on next tokens using  half of Anthropic HH-RLHF dataset as train set. Reward Model is done follwiing th InstructGPT and other Half of Anthropic HH-RLHF dataset is used as train and test set. The reward model has a transformer decoder layers as backbone, and used a logistic output to replace the the N-way language model head. Based on InstructGPT PPO is implemented with Actor-Critic.</p>
+
+
+  <img src="https://sushant-97.github.io/images/portfolio/gif_books.gif" alt="Notebook" style="width:100%">
   </span>
   <button class="btn" onclick="read_more(dots_id='dots1', mor_id='more1', btn_id='btn1')" id="btn1">&#128220; Read more</button>
-  <button class="btn" onclick="window.open('https://github.com/kozodoi/Kaggle_Readability')" type="button">&#128187; GitHub repo</button>
-  <button class="btn" onclick="window.open('https://kozodoi-text-readability-prediction-web-app-ddrfmw.streamlit.app')" type="button">&#128202; Web app</button>
-  <button class="btn" onclick="window.open('https://kozodoi.me/blog/20211121/text-readability')" type="button">&#128203; Blog post</button>
+  <button class="btn" onclick="window.open('https://github.com/sushant-97/Optimizing-GPT-2-with-Reinforcement-Learning-from-Human-Feedback')" type="button">&#128187; GitHub repo</button>
+  <button class="btn" onclick="window.open('https://sushant-97.github.io/blog/20240518/rlhfgpt2')" type="button">&#128203; Blog post</button>
 </div>
 
 <!----------------------------------------------------------------------------->
@@ -79,25 +82,27 @@ image: ../images/menu/photo_portfolio.jpg
 
 <a id="PROJECT_3"></a>
 <div class="card">
-  <h2><b> Image-to-Text Translation of Molecules with Deep Learning </b></h2>
-  <img src="https://kozodoi.me/images/portfolio/fig_inchi.jpg" alt="Notebook" style="width:100%">
+  <h2><b> Accelerating BERT Inference with LoRA and TensorRT </b></h2>
+  <img src="sushant-97.github.io/images/portfolio/fig_inchi.jpg" alt="Notebook" style="width:100%">
   <h3> Highlights </h3>
   <ul>
-  <li> built a CNN-LSTM encoder-decoder architecture to translate images into chemical formulas </li>
-  <li> developed a comprehensive PyTorch GPU/TPU image captioning pipeline </li>
-  <li> finished in the top-5% of the Kaggle competition leaderboard with a silver medal </li>
+  <li> Implemented and compared standard fine-tuning with LoRA (Low-Rank Approximation) fine-tuning, developing custom implementations for BERT and LoRA from scratch.
+  <li> Optimized PyTorch BERT model for question closure prediction on StackOverflow using ONNX and TensorRT for efficient inference. </li>
+  <li> Achieved a 4x inference speed-up using NVIDIA TensorRT with INT8 precision, reducing accuracy by only 0.4% compared to PyTorch FP32 on the BERT-LoRA model. </li>
   </ul>
-  <p> <b>Tags:</b> computer vision, natural language processing, deep learning </p>
+  <p> <b>Tags:</b> nlp, BERT, LoRA, Quantization</p>
   <span id="dots3"><p></p></span>
   <span id="more3">
   <h3> Summary </h3>
-  <p>Organic chemists frequently draw molecular work using structural graph notations. As a result, decades of scanned publications and medical documents contain drawings not annotated with chemical formulas. Time-consuming manual work of experts is required to reliably convert such images into machine-readable formulas. Automated recognition of optical chemical structures could speed up research and development in the field.</p>
-  <p>The goal of this project is to develop a deep learning based algorithm for chemical image captioning. In other words, the project aims at translating unlabeled chemical images into the text formula strings. To do that, I work with a large dataset of more than 4 million chemical images provided by Bristol-Myers Squibb.</p>
-  <p>My solution is an ensemble of CNN-LSTM Encoder-Decoder models implemented in PyTorch.The solution reaches the test score of 1.31 Levenstein Distance and places in the top-5% of the competition leaderboard. The code is documented and published on <a href="https://github.com/kozodoi/BMS_Molecular_Translation">GitHub</a>.</p>
+  <p>This project, while serving as a comprehensive guide to understanding, implementing, and optimizing transformer-based models for improved performance and efficiency, is also a representation of my learning journey and serves as a portfolio piece showcasing some skills I have picked up along the way in machine learning and natural language processing.</p>
+
+  <p>The goal of this project is to provide fast inference for BERT based model using quantization and lora and deploy using TensorRT. In this we first finetuing the BERT-LoRA on trainng set and then quantize the model using transformer-deploy libray. In the end we export the model to ONXX framework and deploy by provided ONXX graph to TensorRT. In this way we have utilized major techniques of optimization of transformer model for production with minimal reduction in accuracy.</p>
+
+  <p> We achive 4x speed up over BERT base model with minimal(approx 0.4%) loss in accuracy. The code is documented and published on <a href="https://github.com/sushant-97/Fine-Tuning-BERT-with-LoRA-for-Stack-Overflow-Question-Classification">GitHub</a>. 
+
   </span>
   <button class="btn" onclick="read_more(dots_id='dots3', mor_id='more3', btn_id='btn3')" id="btn3">&#128220; Read more</button>
-  <button class="btn" onclick="window.open('https://github.com/kozodoi/BMS_Molecular_Translation')" type="button">&#128187; GitHub repo</button>
-  <button class="btn" onclick="window.open('https://www.kaggle.com/c/bms-molecular-translation/discussion/243845')" type="button">&#128214; Writeup on Kaggle</button>
+  <button class="btn" onclick="window.open('https://github.com/sushant-97/Fine-Tuning-BERT-with-LoRA-for-Stack-Overflow-Question-Classification')" type="button">&#128187; GitHub repo</button>
 </div>
 
 <!----------------------------------------------------------------------------->

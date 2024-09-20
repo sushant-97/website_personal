@@ -1,6 +1,6 @@
 ---
 description: chatbot designed to promptly respond to farmers' inquiries, leveraging historical data from Krishi Seva Kendra
-title: KissanGPT:Revolutionizing Farmer Assistance with AI
+title: KisaanGPT:Revolutionizing Farmer Assistance with AI
 toc: true
 badges: true
 comments: true
@@ -9,8 +9,8 @@ categories: [generative ai, natural language processing, web app]
 image: images/posts/content.png
 cover: images/covers/content.png
 layout: notebook
-permalink: /blog/:year:month:day/kissangpt
-sticky_rank: 1
+permalink: /blog/:year:month:day/kisaangpt
+sticky_rank: 2
 ---
 
 <p>In this blog, we introduce KissanGPT—a chatbot designed to automate responses to farmers' inquiries using cutting-edge Generative AI. This solution was developed as part of the PANIIT LLM competition held at <a href="https://www.iitg.ac.in/">IIT Guwahati</a>, and leverages Mistral API to address real-world agricultural problems. </p>
