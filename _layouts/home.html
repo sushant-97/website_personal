@@ -19,7 +19,7 @@ layout: base
   {% assign sticky_posts = sticky_posts | slice: 0, 3 %}
 
   <!-- Sticky posts -->
-  <!-- {% if site.paginate and paginator.page == 1 %}
+  {% if site.paginate and paginator.page == 1 %}
     {%- if sticky_posts.size > 0 -%}
       <h2>Popular posts</h2>
       {%- if page.list_title -%}
@@ -38,7 +38,7 @@ layout: base
         {%- endfor -%}
       </ul>
     {%- endif -%} 
-  {%- endif -%} -->
+  {%- endif -%}
 
   <!-- Non-sticky posts -->
   {%- if posts.size > 0 -%}
