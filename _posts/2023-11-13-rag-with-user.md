@@ -10,7 +10,7 @@ image: images/posts/rag.png
 cover: images/covers/rag.png
 layout: notebook
 permalink: /blog/:year:month:day/rag-with-human-interaction
-sticky_rank: 2
+sticky_rank: 3
 ---
 
 <p>This post was originally published on the <a href="https://aws.amazon.com/blogs/machine-learning/improve-llm-responses-in-rag-use-cases-by-interacting-with-the-user/">AWS ML Blog</a></p>
