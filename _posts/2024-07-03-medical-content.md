@@ -10,7 +10,7 @@ image: images/posts/content.png
 cover: images/covers/content.png
 layout: notebook
 permalink: /blog/:year:month:day/medical-content-generation
-sticky_rank: 2
+sticky_rank: 4
 ---
 
 <p>This post was originally published on the <a href="https://aws.amazon.com/blogs/machine-learning/medical-content-creation-in-the-age-of-generative-ai/">AWS ML Blog</a></p>

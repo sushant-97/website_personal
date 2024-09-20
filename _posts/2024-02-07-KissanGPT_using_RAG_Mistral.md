@@ -10,13 +10,12 @@ image: images/posts/content.png
 cover: images/covers/content.png
 layout: notebook
 permalink: /blog/:year:month:day/kisaangpt
-sticky_rank: 2
+sticky_rank: 3
 ---
 
 <p>In this blog, we introduce KissanGPT—a chatbot designed to automate responses to farmers' inquiries using cutting-edge Generative AI. This solution was developed as part of the PANIIT LLM competition held at <a href="https://www.iitg.ac.in/">IIT Guwahati</a>, and leverages Mistral API to address real-world agricultural problems. </p>
 
-<h1 id="1.-Introduction">
-1. Introduction <a class="anchor-link" href="#1.-Introduction"></a>
+<h1 id="1.-Introduction">1. Introduction <a class="anchor-link" href="#1.-Introduction"></a>
 <p> Agriculture is the backbone of many economies, especially in India, where farmers rely on timely and accurate information to make critical decisions. The Krishi Seva Kendra (KSK) provides vital assistance to farmers by answering queries related to crop management, weather predictions, pest control, and more. However, during peak seasons like the monsoon, KSK often struggles to keep up with the surge in requests due to staff shortages, leading to delays in response time.
 
 Generative AI and transformer-based large language models (LLMs) have been in the top headlines recently. These models demonstrate impressive performance in question answering, text summarization, code, and text generation. Today, LLMs are being used in real settings by companies. In this post, we explore how LLMs can be used to answer farmer queries.</p>

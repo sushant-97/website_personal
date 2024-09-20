@@ -36,7 +36,7 @@ image: ../images/menu/photo_portfolio.jpg
   <ul style="margin-top: -10px;">
   <li> &#128214; <a href="#PROJECT_3">Optimized GPT-2 with Reinforcement Learning from Human Feedback </a></li>
   <li> &#129516; <a href="#PROJECT_1">Accelerating BERT Inference with LoRA and TensorRT for Stack Overflow Question Classification </a></li>
-
+  </ul>
 
   <p>Scroll down to see more generative AI and ML projects grouped by application domains. Click "read more" to see project summaries, and follow GitHub links for code and documentation. </p>
 
