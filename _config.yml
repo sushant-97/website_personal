@@ -6,15 +6,15 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
-title: Nikita Kozodoi
+title: Sushant Pargaonkar
 description: Blog on AI, ML and other cool acronyms
-github_username: kozodoi
+github_username: sushant-97
 # you can comment the below line out if your repo name is not different than your baseurl
-github_repo: "website"
+github_repo: "website_personal"
 
 # OPTIONAL: override baseurl and url if using a custom domain
 # Note: leave out the trailing / from this value.
-url: "https://kozodoi.me" # the base hostname & protocol for your site, e.g. http://example.com
+url: "website_personal" # the base hostname & protocol for your site, e.g. http://example.com
 
 ###########################################################
 #########  Special Instructions for baseurl ###############
@@ -38,8 +38,8 @@ baseurl: "" # the subpath of your site, e.g. "/blog".
 
 minima:
   social_links:
-    - { platform: linkedin, user_url: "https://www.linkedin.com/in/kozodoi/" }
-    - { platform: github, user_url: "https://github.com/kozodoi" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/spargaonkar/" }
+    - { platform: github, user_url: "https://github.com/sushant-97" }
     - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=58tMuD0AAAAJ&hl=en" }
     - { platform: twitter, user_url: "https://twitter.com/n_kozodoi" }
     - { platform: instagram, user_url: "https://www.instagram.com/n_kozodoi/" }
