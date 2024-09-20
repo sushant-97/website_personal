@@ -1,4 +1,4 @@
-# kozodoi.me: Blog on AI, ML and other cool acronyms
+# sushant.io: Blog on AI, ML and other cool acronyms
 
 ![website_snippet](https://i.postimg.cc/4yLPcHcf/ezgif-com-gif-maker-2.gif)
 
@@ -37,12 +37,7 @@ Would like to have a chat? <a href="mailto:sushant.pargaonkar97@gmail.com">Click
 I am happy to connect on different social and professional platforms. Click the badges below to see my profile.
 
 [![Linkedin](https://img.shields.io/badge/-LinkedIn-306EA8?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/kozodoi/)](https://www.linkedin.com/in/spargaonkar/) 
-
 [![Twitter](https://img.shields.io/badge/-Twitter-4B9AE5?style=flat&logo=Twitter&logoColor=white&link=https://www.twitter.com/n_kozodoi)](https://www.twitter.com/sushant_p18)
-
 [![Kaggle](https://img.shields.io/badge/-Kaggle-5DB0DB?style=flat&logo=Kaggle&logoColor=white&link=https://www.kaggle.com/kozodoi)](https://www.kaggle.com/sushantpargaonkar)
-
 [![GitHub](https://img.shields.io/badge/-GitHub-2F2F2F?style=flat&logo=github&logoColor=white&link=https://www.github.com/kozodoi)](https://www.github.com/sushant-97)
-
-
 [![Tea](https://img.shields.io/badge/-Buy_me_a_tea-yellow?style=flat&logo=buymeacoffee&logoColor=white&link=https://www.buymeacoffee.com/kozodoi)](https://www.buymeacoffee.com/sushant7)
